@@ -60,7 +60,7 @@ const Main = () => {
             <Projects />
             <StartupProject />
             <Achievement />
-\            <Contact />
+            <Contact />
             <Talks />
             <Twitter />
             <Podcast />

@@ -13,7 +13,7 @@ export default function Contact() {
   const [filteredContacts, setFilteredContacts] = useState([]);
 
   // Password for accessing contacts
-  const CONTACT_PASSWORD = "8484948794"; // You can change this
+  const CONTACT_PASSWORD = "8484948784"; // You can change this
 
   useEffect(() => {
     if (isAuthenticated && contactSection.contacts) {
@@ -55,7 +55,7 @@ export default function Contact() {
   return (
     <div className="main" id="contact">
       <div className="contact-header">
-        <h1 className="contact-header-text">{contactSection.title}</h1>
+        {/* <h1 className="contact-header-text">{contactSection.title}</h1> */}
         <p
           className={
             isDark ? "dark-mode contact-subtitle" : "subTitle contact-subtitle"
