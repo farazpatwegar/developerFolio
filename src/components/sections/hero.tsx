@@ -53,7 +53,7 @@ const HeroSection = () => {
                       >
                         {config.author.split(" ")[0]}
                         <br className="md:block hiidden" />
-                        {/* {config.author.split(" ")[1]} */}
+                        {config.author.split(" ")[1]}
                         {/* PLEASE hello??
 
                         <br className="md:block hiidden" />
@@ -83,7 +83,7 @@ const HeroSection = () => {
               <div className="mt-8 md:ml-2 flex flex-col gap-3">
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1vjtWfqYGMIMK_rlBnmDEpKco9MiEaQss/view"
+                    "https://drive.google.com/file/d/1QvzcAtL-XQk9oJHi43gnRURizOS-BAhh/view?usp=drive_link"
                   }
                   target="_blank"
                   className="flex-1"
